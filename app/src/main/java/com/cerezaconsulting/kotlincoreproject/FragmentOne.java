@@ -34,6 +34,7 @@ public class FragmentOne extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         text = getArguments().getString("text");
+
     }
 
     @Override
